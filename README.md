@@ -1,2 +1,2 @@
 # Brush_Teeth
-Check the brush teeth way
+ Check if you brush your teeth the correct way
