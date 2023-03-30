@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD650976291023F1000301E5 /* Abc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD650976291023F1000301E5 /* Brush it Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush it Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD650979291023F1000301E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD650980291023F1000301E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD650982291023F2000301E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		DD650977291023F1000301E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD650976291023F1000301E5 /* Abc.app */,
+				DD650976291023F1000301E5 /* Brush it Up.app */,
 				DD65098C291023F2000301E5 /* AbcTests.xctest */,
 				DD650996291023F2000301E5 /* AbcUITests.xctest */,
 			);
@@ -141,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD650975291023F1000301E5 /* Abc */ = {
+		DD650975291023F1000301E5 /* Brush it Up */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD6509A0291023F2000301E5 /* Build configuration list for PBXNativeTarget "Abc" */;
+			buildConfigurationList = DD6509A0291023F2000301E5 /* Build configuration list for PBXNativeTarget "Brush it Up" */;
 			buildPhases = (
 				DD650972291023F1000301E5 /* Sources */,
 				DD650973291023F1000301E5 /* Frameworks */,
@@ -153,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = Abc;
+			name = "Brush it Up";
 			productName = Abc;
-			productReference = DD650976291023F1000301E5 /* Abc.app */;
+			productReference = DD650976291023F1000301E5 /* Brush it Up.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DD65098B291023F2000301E5 /* AbcTests */ = {
@@ -230,7 +230,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD650975291023F1000301E5 /* Abc */,
+				DD650975291023F1000301E5 /* Brush it Up */,
 				DD65098B291023F2000301E5 /* AbcTests */,
 				DD650995291023F2000301E5 /* AbcUITests */,
 			);
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		DD65098E291023F2000301E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD650975291023F1000301E5 /* Abc */;
+			target = DD650975291023F1000301E5 /* Brush it Up */;
 			targetProxy = DD65098D291023F2000301E5 /* PBXContainerItemProxy */;
 		};
 		DD650998291023F2000301E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD650975291023F1000301E5 /* Abc */;
+			target = DD650975291023F1000301E5 /* Brush it Up */;
 			targetProxy = DD650997291023F2000301E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD6509A0291023F2000301E5 /* Build configuration list for PBXNativeTarget "Abc" */ = {
+		DD6509A0291023F2000301E5 /* Build configuration list for PBXNativeTarget "Brush it Up" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD6509A1291023F2000301E5 /* Debug */,

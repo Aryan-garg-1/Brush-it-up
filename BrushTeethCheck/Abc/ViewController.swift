@@ -8,6 +8,8 @@
 import UIKit
 import AVFoundation
 import AudioToolbox
+import SwiftUI
+import CoreML
 
 class ViewController: UIViewController {
     
@@ -23,7 +25,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         setupVideoPreview()
-        
         videoCapture.predictor.delegate = self
     }
     
@@ -46,9 +47,8 @@ class ViewController: UIViewController {
 
 extension ViewController: PredictorDelegate{
     func predictor(_ predictor: Predictor, didLabelAction action: String, with confidence: Double) {
-        if action == "Correct Way Keep it Up" {
-            print("Brushing is Good")
-            isBrushingDone = true
+        if action == "Correct Way Keep it up" {
+            print("Brushing is okay")
             DispatchQueue.main.asyncAfter(deadline: .now() + 3){
                 self.isBrushingDone = false
             }
@@ -56,6 +56,9 @@ extension ViewController: PredictorDelegate{
             DispatchQueue.main.async {
                 AudioServicesPlayAlertSound(SystemSoundID(1322))
             }
+        }
+        else {
+            print("Brush your Teeth Properly")
         }
     }
     

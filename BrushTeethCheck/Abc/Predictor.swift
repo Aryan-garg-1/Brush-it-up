@@ -19,7 +19,7 @@ class Predictor{
     
     weak var delegate: PredictorDelegate?
     
-    let predictionWindowSize = 30
+    let predictionWindowSize = 70
     
     var posesWindow = [VNHumanHandPoseObservation]()
     
@@ -50,7 +50,6 @@ class Predictor{
         
         if let result = observations.first{
             storeObservation(result)
-            
             labelActionType()
         }
         }
